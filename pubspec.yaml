@@ -37,6 +37,9 @@ dependencies:
   cupertino_icons: ^1.0.6
   font_awesome_flutter: 10.3.0
 
+  video_player: 2.4.10
+  visibility_detector: 0.3.3
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -53,7 +56,11 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
+  assets:
+    - assets/images/1.jpeg
+    - assets/images/2.jpeg
+    - assets/images/3.jpeg
+    - assets/videos/video.mp4
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
